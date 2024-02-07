@@ -13,7 +13,7 @@ load diabetes1.mat
 %% Define parameters:
 
 alpha=0.001;   %Learning parameter for Stochastic Gradient Descent
-NumEpochs=1000;  %Number of Epochs
+NumEpochs=100;  %Number of Epochs
 [xdim,Numpts]=size(Xtrain);
 [tdim,~]=size(Ttrain);
 
